@@ -1,0 +1,67 @@
+
+@font-face {
+  font-family: 'CFPB Minicons';
+  src: url('fonts/cf-icons.eot');
+  src: url('fonts/cf-icons.eot?#iefix') format('embedded-opentype'), url('fonts/cf-icons.woff') format('woff'), url('fonts/cf-icons.ttf') format('truetype'), url('fonts/cf-icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#link-disabler-notification {
+  display: none;
+  color: black;
+  position: fixed;
+  width: 100%;
+  background-color: #F6D9D3;
+  padding: .5em 1em;
+  text-align: center;
+  z-index: 100;
+  border-bottom: 1px solid black;
+}
+
+#link-disabler-notification div {
+  margin: 10px 0px ;
+}
+
+#link-disabler-notification .hidden-notification {
+  display: none;
+}
+
+#link-disabler-notification button {
+  color: white;
+  background-color: #0072CE;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.57142857em 1em;
+  border: 0;
+  border-radius: 0.28571429em;
+  margin: 0;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .1s;
+  -webkit-appearance: none;
+}
+
+#link-disabler-notification .close-window {
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+#link-disabler-notification .cf-icon {
+  font-family: 'CFPB Minicons';
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+#link-disabler-notification .cf-icon-delete:before {
+  content: "\e106";
+}
+
