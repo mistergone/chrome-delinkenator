@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Disabler",
+  "name": "Delinkenator",
   "description": "This extension can disable links for GTM testing",
   "version": "1.0",
 
